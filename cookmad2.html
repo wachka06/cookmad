@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>COOKCAMP</title>
+    <link rel="stylesheet" href="cookmad2.css">
+    <link rel="stylesheet" href="ress.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <header class="background-color-white">
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <div class="font-16 font-brown flex menu sp">
+            <a href="#">新着レシピ</a>
+            <a href="#">料理から検索</a>
+            <a href="#">食材から検索</a>
+            <a href="#">旬の料理特集</a>
+            <a href="#">ランキング</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="flex">
+          <div class="logo-wrap">
+            <img src="img/structure/logo.png">
+            <p class="font-14 font-brown">誰でも作れる簡単料理レシピ掲載サイト</p>
+          </div>
+          <form action="#" class="font-14">
+            <p>
+              <input type="text" name="search" id="search" placeholder="料理名・食材名で検索"
+              style="border-bottom: solid 1px #cccccc;">
+              <input type="submit" value="レシピ検索" style="background-color: #d0d0d0; padding: 0.2em;">
+            </p>
+          </form>
+        </div>
+        <div class="font-16 font-brown flex menu pc">
+          <a href="#">新着レシピ</a>
+          <a href="#">料理から検索</a>
+          <a href="#">食材から検索</a>
+          <a href="#">旬の料理特集</a>
+          <a href="#">ランキング</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap-content">
+      <img src="img/contents/mainView.jpg" class="main-img">
+        <div class="flex">
+          <nav>
+          <div class="background-color-white padding margin-bottom">
+            <div class="title-bar">
+              <p><img src="img/icon/dish.png"> 料理別レシピ</p>
+            </div>
+            <div class="font-16">
+              <a href="#"><img src="img/icon/arrow.png"> 和食</a>
+              <a href="#"><img src="img/icon/arrow.png"> イタリアン</a>
+              <a href="#"><img src="img/icon/arrow.png"> フレンチ</a>
+              <a href="#"><img src="img/icon/arrow.png"> アジアン</a>
+              <a href="#"><img src="img/icon/arrow.png"> 中華</a>
+              <a href="#"><img src="img/icon/arrow.png"> エスニック</a>
+              <a href="#"><img src="img/icon/arrow.png"> 鍋</a>
+              <a href="#"><img src="img/icon/arrow.png"> デザート</a>
+            </div>
+          </div>
+          <div class="background-color-white padding margin-bottom">
+            <div class="title-bar">
+              <p><img src="img/icon/dish.png"> 目的別レシピ</p>
+            </div>
+            <div class="font-16">
+              <a href="#"><img src="img/icon/arrow.png"> お弁当</a>
+              <a href="#"><img src="img/icon/arrow.png"> 簡単おかず</a>
+              <a href="#"><img src="img/icon/arrow.png"> ダイエット</a>
+              <a href="#"><img src="img/icon/arrow.png"> ベビーフード</a>
+              <a href="#"><img src="img/icon/arrow.png"> 節約食材</a>
+              <a href="#"><img src="img/icon/arrow.png"> アレルギー</a>
+              <a href="#"><img src="img/icon/arrow.png"> シニア料理</a>
+            </div>
+          </div>
+        </nav>
+          <article>
+              <div class="background-color-white margin-bottom padding">
+                  <div class="title-bar">
+                      <p><img src="img/icon/dish.png"> 新着レシピ</p>
+                  </div>
+                  <div class="article-wrap recipe font-black">
+                      <a href="#">
+                          <img src="img/contents/newRecipes1.jpg">
+                          <p>季節菜の彩り前菜</p>
+                      </a>
+                      <a href="#">
+                          <img src="img/contents/newRecipes2.jpg">
+                          <p>簡単かぼちゃスープ</p>
+                      </a>
+                      <a href="#">
+                          <img src="img/contents/newRecipes3.jpg">
+                          <p>ヘルシー米粉パン</p>
+                      </a>
+                      <a href="#">
+                          <img src="img/contents/newRecipes4.jpg">
+                          <p>ぷりぷり海老料理</p>
+                      </a>
+                      <a href="#">
+                          <img src="img/contents/newRecipes5.jpg">
+                          <p>かんたん鴨南蛮</p>
+                      </a>
+                  </div>
+              </div>
+              <div class="background-color-white margin-bottom padding">
+                <div class="title-bar">
+                  <p><img src="img/icon/dish.png"> 今だからこそ見直したい「和食」</p>
+                </div>
+                <div class="article-wrap font-12">
+                    <div>
+                      <img src="img/contents/topics.jpg">
+                    </div>
+                    <div>
+                        <p>　普段、私たちが何気なく口にしている和食ですが、その基本は一汁根菜。ご飯、味噌汁、お漬物の他、主菜（魚またはお肉）、副菜として季節毎の野菜と豆類で構成されます。</p>
+                        <p>昔から「旬の野菜を食べましょう」と言いますが、それは素材がじっくりと時間をかけて蓄積してきた旨味や栄養価が最高になってきたところでいただいて、効率よく栄養をとり風邪などの予防をしましょうね、ということです。</p>
+                        <p>それでは各季節毎の旬の野菜について調べてみましょう。</p>
+                        <a href="#" class="next"><img src="img/icon/arrow.png"> 続きを読む</a>
+                    </div>
+                </div>
+              </div>
+              <div class="background-color-white margin-bottom padding">
+                <div class="title-bar">
+                  <p><img src="img/icon/dish.png"> 簡単！おすすめレシピ</p>
+                </div>
+                <div class="article-wrap font-12 article-bottom-1">
+                 <div>
+                   <img src="img/contents/pushRecipes1.jpg">
+                 </div>
+                 <div>
+                  <p class="sub-title">季節の食材〜春〜</p>
+                  <p>　新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味がよく、みずみずしいのが特徴です。</p>
+                  <p>それでは春野菜を使ったレシピを紹介しましょう。</p>
+                  <a href="#" class="next"><img src="img/icon/arrow.png"> 続きを読む</a>
+                 </div>
+                </div>
+                <div class="article-wrap font-12 article-bottom-2">
+                    <div>
+                      <img src="img/contents/pushRecipes2.jpg">
+                    </div>
+                   <div>
+                      <p class="sub-title">春野菜を食べて花粉症予防？！</p>
+                      <p>　春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材を取ることで少し緩和されるんです！</p>
+                      <p>さて、その食材とは・・・？</p>
+                      <a href="#" class="next"><img src="img/icon/arrow.png"> 続きを読む</a>
+                   </div>
+                </div>
+              </div>
+          </article>
+          <aside>
+            <a href="#" class="margin-bottom"><img src="img/contents/right1.png"></a>
+            <a href="#" class="margin-bottom"><img src="img/contents/right2.png"></a>
+          </aside>
+      </div>
+    </div>
+    <footer class="background-color-white">
+        <div class="container font-12 font-black">
+          <a href="#">サイトマップ</a>
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">お問い合わせ</a>
+          <a href="#">ご利用ガイド</a>
+        </div>
+        <p class="copyright font-12 padding">Copyright &copy; CodeCamp All Rights Reserved.</p>
+    </footer>
+  </body>
+  <script type="text/javascript">
+    $(function() {
+      $('.menu-button').click(function() {
+        $('.menu-sp').show()
+        console.log("SHOW")
+      })
+
+      $('.close-button').click(function() {
+        $('.menu-sp').hide()
+        console.log("CLOSE")
+      })
+    })
+  </script>
+</html>
